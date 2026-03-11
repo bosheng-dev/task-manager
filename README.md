@@ -1,54 +1,44 @@
-# Task Manager 🦞
+# Task Manager
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+A simple task management CLI application for learning software development best practices.
 
-一个简单的命令行任务管理器，用于学习 JavaScript 和 Node.js。
+## Features
 
-## 功能
+- ✅ Add, list, complete, and delete tasks
+- 📁 Persistent storage (JSON file)
+- 🏷️ Task categories and priorities
+- 📊 Task statistics and reporting
 
-- ✅ 添加任务
-- 📋 列出所有任务
-- ⏳ 查看待办任务
-- ✅ 标记任务完成
-- 🗑️ 删除任务
-
-## 安装
+## Installation
 
 ```bash
-git clone <repository-url>
-cd task-manager
 npm install
+npm start
 ```
 
-## 使用
+## Usage
 
 ```bash
-# 添加任务
-node index.js add "学习Git"
+# Add a task
+node cli.js add "Learn GitHub Actions" --priority high
 
-# 列出所有任务
-node index.js list
+# List all tasks
+node cli.js list
 
-# 查看待办任务
-node index.js todo
+# Complete a task
+node cli.js complete 1
 
-# 完成任务（用序号或ID）
-node index.js complete 1
-
-# 删除任务
-node index.js delete 1
-
-# 显示帮助
-node index.js help
+# Delete a task
+node cli.js delete 1
 ```
 
-## 技术要点
+## Development
 
-- 文件系统操作（fs 模块）
-- JSON 数据持久化
-- 命令行参数解析
-- 模块化代码结构
+```bash
+npm test        # Run tests
+npm run lint    # Run linter
+```
 
-## 许可证
+## License
 
-MIT © 2026 龙虾1号
+MIT

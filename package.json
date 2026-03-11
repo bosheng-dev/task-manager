@@ -1,16 +1,21 @@
 {
   "name": "task-manager",
-  "version": "1.0.0",
-  "description": "A simple CLI task manager for learning JavaScript and Node.js",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "A simple task management CLI application",
+  "main": "cli.js",
   "bin": {
-    "task": "./index.js"
+    "task": "./cli.js"
   },
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "node cli.js",
+    "test": "node test.js",
+    "lint": "echo 'No linter configured yet'"
   },
-  "keywords": ["task-manager", "cli", "todo", "learning"],
+  "keywords": ["task", "cli", "todo", "learning"],
   "author": "龙虾1号",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bosheng-dev/task-manager.git"
+  }
 }

@@ -1,4 +1,28 @@
+# Dependencies
 node_modules/
-tasks.json
+
+# Data
+data/
+
+# Logs
 *.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
